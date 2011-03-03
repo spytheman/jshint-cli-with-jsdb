@@ -33,7 +33,7 @@
             for (var i = 0; i < el ; i ++) {
                var e = JSHINT.errors[i];
                if (e) {
-                  print(fname + ':' + (e.line + 1) + ':' + (e.character + 1) + ': ' + e.reason + ' ');
+                  print(fname + ':' + (e.line) + ':' + (e.character) + ': ' + e.reason + ' ');
                   print((e.evidence || '').replace(/^\s*(\S*(\s+\S+)*)\s*$/, "$1"));
                   print("\n");
                }
