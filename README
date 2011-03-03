@@ -13,3 +13,4 @@ very simple commandline interface :
 jshint yourfile.js
 
 It will show you the potential problems with your code as a result.
+
